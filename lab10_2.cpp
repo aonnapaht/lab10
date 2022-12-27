@@ -2,6 +2,20 @@
 using namespace std;
 
 //Write the function printO() here
+#include<iostream>
+using namespace std;
+    int printO (int M,int N){
+        if( M <= 0 or N <= 0){
+            cout << "Invalid input";
+        }
+        for(int i=0;i < M;i++){
+            for(int j=0;j < N;j++){
+                cout  << 'O';
+            }
+            cout << "\n";
+        }
+        return 0;
+    }
 
 int main(){
 	
